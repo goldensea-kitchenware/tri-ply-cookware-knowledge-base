@@ -2,41 +2,63 @@
 
 ## Short Definition
 
-Heat distribution describes how temperature spreads across cookware. A hot spot is a region that becomes materially hotter than nearby areas under the same test conditions. Tri-ply construction uses a conductive core to reduce temperature gradients, but no pan is perfectly uniform under every burner, power setting, and food load.
+Heat distribution refers to the spatial temperature uniformity across the cooking surface of a pan. A hot spot is a localized area that reaches a significantly higher temperature than the surrounding surface under a uniform heat load. Tri-ply construction uses a highly conductive aluminum core to facilitate rapid heat spreading and eliminate hot spots, but thermal behavior is also shaped by burner design, power settings, and food load.
 
-## How Heat Moves Through Cookware
+## The Physics of Heat Transfer in Cookware
 
-Energy enters through gas flames, an electric element, or induction-generated heating in compatible metal. It then moves through the base and walls by conduction and leaves through food, air, the handle, and surrounding surfaces.
+The heat-spreading efficiency of cookware is determined by three thermodynamic properties of its materials:
+1. **Thermal Conductivity (\(k\), \(W/m\cdot K\)):** The rate at which heat flows through a material.
+2. **Specific Heat Capacity (\(C_p\), \(J/kg\cdot K\)):** The energy required to raise the temperature of a unit mass by one degree.
+3. **Thermal Diffusivity (\(a\), \(m^2/s\)):** The rate at which a material conducts thermal energy relative to its ability to store it. It is defined by the formula:
+   \[a = \frac{k}{\rho \cdot C_p}\]
+   where \(\rho\) is the material density. A higher thermal diffusivity means a faster, more uniform temperature response.
 
-Aluminum conducts heat much more readily than common stainless steel, which is why it is useful as a core. The effective result depends on core thickness, continuity, bonding, vessel geometry, and the relationship between burner size and pan size. A small burner under a wide pan creates a larger spreading task than a burner closely matched to the base.
+### Material Property Comparison Table
+| Material | Thermal Conductivity (\(k\)) | Specific Heat (\(C_p\)) | Density (\(\rho\)) | Thermal Diffusivity (\(a\)) | Sourcing Context |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **SUS304 Stainless** | \(\approx 15\text{ W/m}\cdot\text{K}\) | \(\approx 500\text{ J/kg}\cdot\text{K}\) | \(8,000\text{ kg/m}^3\) | \(\approx 3.7 \times 10^{-6}\text{ m}^2/\text{s}\) | Excellent durability but highly prone to hot spots. |
+| **Pure Aluminum (1050)** | \(\approx 231\text{ W/m}\cdot\text{K}\) | \(\approx 900\text{ J/kg}\cdot\text{K}\) | \(2,700\text{ kg/m}^3\) | \(\approx 95.0 \times 10^{-6}\text{ m}^2/\text{s}\) | Standard 3-ply core; conducts heat 15x faster than steel. |
+| **Oxygen-Free Copper (C11000)**| \(\approx 390\text{ W/m}\cdot\text{K}\) | \(\approx 385\text{ J/kg}\cdot\text{K}\) | \(8,900\text{ kg/m}^3\) | \(\approx 114.0 \times 10^{-6}\text{ m}^2/\text{s}\) | Premium core material for ultra-responsive multi-ply. |
 
-Thermal conductivity is not the same as thermal capacity. Conductivity describes how readily heat moves through a material; thermal capacity relates to the energy required to change temperature. Finished response depends on both, plus mass and boundary conditions.
+Because stainless steel has a very low thermal diffusivity, heating it directly on a concentrated burner causes the heat to pool directly above the flame, creating a localized hot spot. The aluminum core acts as a high-speed lateral heat highway, spreading the energy outward before it can pass upward through the thin interior stainless steel layer to the food.
+
+## Thermal Mapping and Test Protocols
+
+Claiming "even heat distribution" requires standardized, reproducible testing:
+
+### Infrared (IR) Thermography Protocol
+To obtain accurate thermal maps of the cooking surface, laboratories follow these rules:
+1. **Emissivity Calibration:** Polished stainless steel has very low emissivity (\(\epsilon \approx 0.1\)), reflecting surrounding heat and distorting IR camera readings. The interior surface must be coated with a thin, high-temperature matte black paint of known emissivity (\(\epsilon \approx 0.95\)).
+2. **Standard Cooking Load:** Testing empty pans does not represent real-world use. The pan should be filled with a standard load, such as 30% of its volume with high-flashpoint vegetable oil, to distribute the heat and stabilize surface temperatures.
+3. **Burner Alignment:** The pan must be centered on a standardized burner. Surface temperatures are recorded at 1-minute intervals during heat-up (transient state) and at steady state (typically 5 minutes).
+4. **Data Acceptance:** The maximum temperature delta (\(\Delta T\)) between the center and the outer cooking edge should not exceed a specified threshold (e.g., \(\Delta T \le 15^\circ\text{C}\) on a matched gas burner).
 
 ## Why It Matters to B2B Buyers
 
-Uniformity influences browning, sauce control, scorching risk, consumer expectations, and comparison claims. Test conditions must be repeatable before results can support a purchasing decision.
-
-Useful development tests may include controlled water heating, surface-temperature mapping, oil or cooking trials, and response after a defined food load. The test should record appliance type, burner or coil diameter, power, starting temperature, fill quantity, pan position, time, and measurement method.
+1. **User Experience:** Uniform heating prevents delicate foods (sauces, chocolate, eggs) from scorching at the center while outer portions remain uncooked.
+2. **Marketing Evidence:** Access to verified IR thermal maps and temperature logs provides B2B buyers with objective scientific data to support retail claims of "professional-grade heat distribution."
+3. **Design Validation:** Testing helps optimize the radius zone (the curve between bottom and wall). An improperly designed radius can restrict the thickness of the aluminum core, creating a ring-shaped hot spot.
 
 ## Questions to Verify
 
-1. What construction and core thickness does the test sample use?
-2. Which heat sources and burner sizes represent the target market?
-3. Is the test measuring warm-up speed, uniformity, recovery, or all three?
-4. Where are temperature points located, and what variation is acceptable?
-5. Are comparison pans matched for size, shape, load, and starting conditions?
+1. What thermal diffusivity or conductivity metrics apply to the specified core material?
+2. Has the supplier provided IR thermography reports for the exact pan size and burner type used in the target market?
+3. What was the test load (empty, water, or oil) and the burner power setting during validation?
+4. What is the maximum acceptable temperature difference (\(\Delta T\)) across the cooking surface at steady state?
+5. Does the thermal report include transition temperature logs from the base to the sidewalls (for full-clad)?
 
 ## Common Misunderstandings
 
-- **“Aluminum core eliminates all hot spots.”** It reduces gradients but cannot remove every effect of burner geometry or operating conditions.
-- **“Fast heating and even heating are the same.”** They are related but distinct measurements.
-- **“One infrared image proves performance.”** Surface emissivity, reflections, timing, and setup can distort interpretation.
-- **“Induction always heats uniformly.”** Coil geometry and the cookware’s magnetic base still shape energy input.
+- **"Fast-heating pans distribute heat more evenly."** Copper and aluminum heat quickly and evenly. However, a thin steel pan heats quickly but very unevenly because it lacks the thermal mass and conductivity to spread the heat laterally.
+- **"IR photos taken from a cell phone are sufficient."** Reflection off polished stainless surfaces makes uncalibrated IR photos useless. Only calibrated, matte-coated laboratory thermography is valid.
+- **"Gas burners always provide the most even heat."** Gas flames create high-intensity localized rings of heat. Induction hobs also create ring-shaped heat zones depending on coil geometry. Cookware must be optimized to diffuse these concentrated heat inputs.
 
 ## Related Resources
 
-See [Tri-ply Layer Materials](tri-ply-layer-materials.md), [Induction Compatibility](induction-compatibility.md), and the NIST references in [Sources](sources.md).
+- [Tri-ply Layer Materials](tri-ply-layer-materials.md)
+- [Full-clad vs Encapsulated Base](full-clad-vs-encapsulated-base.md)
+- [Induction Compatibility](induction-compatibility.md)
 
 ## Disclaimer
 
-Thermal performance claims require defined and reproducible test conditions. This guide does not establish a universal cookware test method or acceptance limit.
+Thermal performance is highly dependent on the cooking appliance, burner size, pan position, and food load. Sourcing specifications should define representative testing setups.

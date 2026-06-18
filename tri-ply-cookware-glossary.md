@@ -2,106 +2,99 @@
 
 ## Short Definition
 
-This glossary standardizes common terms used in tri-ply cookware discussions. Supplier usage can vary, so commercial documents should define critical terms with drawings, materials, dimensions, and test methods.
-
-## How the Terminology Works
-
-Cookware language mixes material grades, trade descriptions, manufacturing processes, measured properties, and marketing claims. These categories are not interchangeable. For example, 304 identifies a stainless-steel grade, 18/10 is a commercial composition description, tri-ply identifies a layer count, and induction-ready is a finished-product compatibility claim. A complete specification connects the relevant terms to measurable requirements.
-
-## Why It Matters to B2B Buyers
-
-Unclear terminology can make two quotations appear equivalent when their materials, clad coverage, thickness, or test evidence differ. Defining critical words in the RFQ and approved specification reduces assumptions during pricing, sampling, production, inspection, and corrective action.
+This glossary provides definitions for technical, commercial, and quality assurance terms used in B2B sourcing discussions for tri-ply stainless steel cookware. To prevent disputes, contracts and specifications should define these terms using precise tolerances, drawings, and testing standards.
 
 ## Terms
 
-**18/10 stainless steel**  
-A trade description commonly associated with stainless steel containing approximately 18% chromium and 10% nickel. It is not a complete product specification and should not replace a recognized grade designation.
+**18/10 Stainless Steel**  
+A commercial trade descriptor commonly associated with grade 304 stainless steel containing approximately 18% chromium and 10% nickel. It is not a complete material specification and does not define impurity limits or standard tolerances.
 
-**18/0 stainless steel**  
-A trade description for chromium stainless steel with little or no intentionally added nickel. Ferritic grades used for magnetic cookware exteriors are often described this way.
+**18/0 Stainless Steel**  
+A commercial trade descriptor for chromium stainless steel containing little or no nickel, such as grade 430. Commonly used for magnetic exterior layers of induction-compatible cookware.
 
-**304 stainless steel**  
-An austenitic chromium-nickel stainless grade widely used for food-contact inner surfaces. It is commonly associated with 18/8 or 18/10 terminology.
+**304 Stainless Steel (SUS304 / UNS S30400)**  
+An austenitic chromium-nickel stainless steel widely used for the food-contact interior layer. Stabilized by nickel, it offers high corrosion resistance and ductility but is non-magnetic.
 
-**430 stainless steel**  
-A ferritic chromium stainless grade that is normally magnetic and is often used for induction-compatible exterior layers.
+**430 Stainless Steel (SUS430 / UNS S43000)**  
+A ferritic chromium stainless steel that is strongly ferromagnetic. Typically used for the exterior layer of multi-ply cookware to couple with induction cooktops.
 
-**Aluminum core**  
-The conductive middle layer enclosed between stainless layers in a common tri-ply construction.
+**Acid Passivation**  
+A chemical treatment (using nitric or citric acid) that removes free iron from stainless steel surfaces and promotes the formation of a dense, protective chromium oxide passive layer to prevent corrosion (tea staining).
 
-**Base flatness**  
-The dimensional relationship between the bottom surface and a defined reference plane, measured under specified conditions.
+**Alloy 1050**  
+A high-purity aluminum alloy (99.5% Al) used as a conductive core in multi-ply cookware due to its high thermal conductivity (\(k \approx 231\text{ W/m}\cdot\text{K}\)).
 
-**Clad / cladding**  
-Two or more dissimilar metal layers bonded to function as a composite material.
+**Alloy 3003**  
+An aluminum-manganese alloy used as a core layer. It has higher yield strength and hardness than Alloy 1050, offering better resistance to deformation during deep drawing, though its thermal conductivity is lower (\(k \approx 163\text{ W/m}\cdot\text{K}\)).
+
+**Base Concavity**  
+An intentional inward recess (typically 0.5%–1.0% of the base diameter) engineered into the cold pan bottom. It compensates for differential thermal expansion during heating to ensure the bottom flattens on the cooktop.
+
+**Base Flatness**  
+The dimensional deviation of the base bottom from a perfectly flat reference plane. Flatness tolerances must be defined for both cold (as-manufactured) and hot (heated) states.
+
+**Bonding / Metallurgical Bonding**  
+The permanent joining of dissimilar metal layers at the atomic level, achieved through high heat and pressure (roll bonding or impact bonding) without the use of chemical adhesives.
+
+**BS EN 12983-1**  
+The European standard governing safety and performance requirements for domestic stovetop cookware, including base flatness, handle fatigue, torsion, bending, and thermal shock testing.
+
+**Clad / Cladding**  
+The composite material sheet formed by bonding two or more layers of different metals together.
+
+**Convexity**  
+An undesirable outward bowing of the pan bottom. A convex pan is unstable, rocks or spins on the cooktop, and has poor heat transfer on induction and glass surfaces.
+
+**Cut Edge**  
+A rim treatment where the raw, multi-ply clad sheet is sheared, leaving the aluminum core layer exposed to the environment.
 
 **Delamination**  
-Loss of intended bonding between layers. It may be visible at an edge or require other inspection methods.
+The structural failure or peeling apart of bonded metal layers, often caused by thermal shock, poor bonding, or chemical attack.
 
-**Encapsulated base**  
-A conductive base element enclosed by or attached with stainless steel to the bottom of a vessel.
+**Eddy Currents**  
+Circular electrical currents induced in a conductive metal base by an alternating magnetic field. In induction cooking, these currents generate heat within the pan base.
 
-**Food-contact material**  
-A material or article intended or reasonably expected to contact food. Applicable requirements depend on jurisdiction, substances, and intended use.
+**Encapsulated Base (Disc-Bottom)**  
+Cookware where a single-layer stainless steel vessel body has a conductive disc (aluminum) impact-bonded and capped solely to its bottom.
 
-**Full-clad**  
-A clad construction in which the bonded layers extend through the vessel body, normally including base and sidewalls. The exact endpoint should be specified.
+**Food-Contact Simulant Test**  
+A laboratory extraction test using food simulants (like 3% acetic acid) to measure the migration of heavy metals (Pb, Cd, Cr, Ni) from the cookware under specified temperature-time conditions.
 
-**Gauge**  
-A thickness designation whose meaning can depend on material and convention. Millimeters with tolerances are clearer for international purchasing.
+**Full-Clad**  
+A multi-ply construction where the bonded layers continue uniformly from the base up through the sidewalls to the rim.
 
-**Hot spot**  
-A region with materially higher temperature than surrounding regions under defined heating conditions.
+**Hysteresis Loss**  
+Thermal energy generated in ferromagnetic materials (e.g., SUS430) due to internal friction when magnetic domains rapidly realign under an alternating magnetic field.
 
-**Impact-bonded base**  
-A base assembly joined to a vessel using high pressure or impact in a manufacturing process. The term does not specify disc dimensions or finished performance.
+**Joule Heating (\(I^2 R\) Loss)**  
+The process by which the passage of an electric current (such as eddy currents) through a conductor generates heat due to the material's electrical resistance.
 
-**Induction-ready / induction-compatible**  
-Intended to work on induction appliances through a suitable magnetic base. Reliable performance should be tested on representative appliances.
+**LFGB**  
+The German Food and Feed Code (*Lebensmittel- und Futtermittelgesetzbuch*). Its food-contact testing protocols are widely regarded as the strictest safety standards in Europe.
 
-**Nominal thickness**  
-The target thickness stated in a specification. It requires a tolerance and measurement method for inspection.
+**Microscopic Cross-Section Analysis**  
+A destructive quality control test where a sample is cut, polished, and examined under a microscope to verify metallurgical bond quality and measure individual layer thicknesses.
 
-**Passivation**  
-The formation or enhancement of the chromium-rich passive surface associated with stainless-steel corrosion resistance. The word may also refer to a controlled chemical treatment.
+**Rolled Rim / Sealed Rim**  
+A rim treatment where the inner stainless steel layer is folded over the edge to completely seal and protect the aluminum core from exposure and corrosion.
 
-**Ply**  
-One layer in a bonded composite. Three-ply means three layers, not three identical materials.
+**Skin Depth (\(\delta\))**  
+The depth to which high-frequency electromagnetic currents penetrate a conductor. For SUS430 at 25 kHz, the skin depth is approximately 0.1 mm, restricting heat generation to the outermost layer.
 
-**PVD finish**  
-A decorative or functional thin-film surface produced by physical vapor deposition. Color and durability depend on the complete substrate, preparation, coating, and process.
+**Surface Roughness (Ra)**  
+The average micro-deviation of a surface profile from a centerline. A food-contact Ra value of \(\le 0.8\text{ }\mu\text{m}\) is standard, while premium mirror polishes target \(\le 0.4\text{ }\mu\text{m}\).
 
-**Satin / brushed finish**  
-A directional, low-reflection mechanical finish. A physical reference and acceptable variation should define the commercial appearance.
+**Thermal Conductivity (\(k\))**  
+The material property measuring the rate at which heat conducts through a solid substance (measured in \(W/m\cdot K\)).
 
-**Thermal conductivity**  
-A material property describing the rate at which heat is conducted through a material under defined conditions.
+**Thermal Diffusivity (\(a\))**  
+The rate at which a material conducts heat relative to its volumetric heat capacity (\(a = k / (\rho \cdot C_p)\)). Higher thermal diffusivity indicates faster, more uniform temperature adjustment.
 
-**Thermal mass**  
-Informal product language for the capacity of a body to absorb thermal energy, influenced by mass and specific heat.
+**Thermal Shock Test**  
+A stress test where a pan is heated to \(200^\circ\text{C}\) and immediately quenched in cold water to evaluate bond durability and warp resistance.
 
-**Tri-ply**  
-A three-layer bonded construction. The term alone does not specify materials, coverage, thickness, bonding, or quality.
+**Ultrasonic Thickness Testing (UT)**  
+A non-destructive quality control method that uses high-frequency sound waves to measure the thicknesses of individual layers in a clad composite.
 
 **Warping**  
-Unwanted shape change caused by thermal, forming, residual-stress, or mechanical effects.
-
-## Questions to Verify
-
-1. Are critical terms defined in the specification rather than only in marketing copy?
-2. Do drawings show clad coverage, base profile, rim, and measurement locations?
-3. Are nominal values supported by tolerances and acceptance methods?
-
-## Common Misunderstandings
-
-- Trade names are not complete engineering specifications.
-- Similar-sounding terms may describe different manufacturing processes.
-- A material property does not automatically predict finished-product performance.
-
-## Related Resources
-
-Start with [What Is Tri-ply Cookware?](what-is-tri-ply-cookware.md) and consult [Sources](sources.md) for the reference policy.
-
-## Disclaimer
-
-Definitions are provided for practical communication. Contracts and regulated claims should use the terminology required by the applicable standards, authorities, and qualified advisors.
+Permanent geometric deformation of the pan body or base caused by uneven heating, thermal shock, or the release of manufacturing residual stresses.
